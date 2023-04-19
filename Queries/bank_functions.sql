@@ -9,12 +9,6 @@ $$
 LANGUAGE plpgsql;
 
 
-
-
-
-
-
-
 CREATE OR REPLACE FUNCTION deposit_funds(p_email TEXT, deposit FLOAT)
 RETURNS TEXT AS $$
 BEGIN
@@ -29,18 +23,6 @@ BEGIN
 END;
 $$
 LANGUAGE plpgsql;
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 CREATE OR REPLACE FUNCTION send_funds(p_sender_email TEXT, p_recipient_number TEXT, funds FLOAT)
