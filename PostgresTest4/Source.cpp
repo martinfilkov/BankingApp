@@ -54,14 +54,3 @@ int main()
     }
     return 0;
 }
-
-//srand(time(NULL));
-//pqxx::work txn(c);
-//int num = 0;
-//std::string accnum = "BG-";
-//for (int i = 0; i < 10; i++)
-//{
-//    num = rand() % 10;
-//    accnum += std::to_string(num);
-//}
-//return accnum;
